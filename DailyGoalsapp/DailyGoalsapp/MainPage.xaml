@@ -1,0 +1,17 @@
+﻿<Window x:Class="DailyGoalsapp.MainPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DailyGoalsapp"
+        mc:Ignorable="d"
+        Title="MainPage" Height="450" Width="800">
+    <Grid Background="AntiqueWhite" HorizontalAlignment="Center" Width="800">
+        <TextBlock HorizontalAlignment="Left" Margin="680,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="en-ca" Text="Current Goals"/></TextBlock>
+        <TextBlock x:Name="MessageNoGoal" HorizontalAlignment="Center" Margin="0,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="83" Width="394" FontSize="20"><Run Language="en-ca" Text="               You have no goals now :( &#x0a;                     Lets change that !"/></TextBlock>
+        <Button x:Name="AddAGoal" Content="Add Goal" Background="Green" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="AddnewGoal" Content="Add New Goal" Background="Green"  HorizontalAlignment="Left" Margin="68,373,0,0" VerticalAlignment="Top"/>
+        <Button Content="Delete Goal" Background="Red" HorizontalAlignment="Left" Margin="68,393,0,0" VerticalAlignment="Top" Width="81"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,70,0,0" TextWrapping="Wrap" Text="dada" VerticalAlignment="Top" Height="247" Width="516"/>
+    </Grid>
+</Window>
