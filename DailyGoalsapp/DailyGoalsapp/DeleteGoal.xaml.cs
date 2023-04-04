@@ -4,22 +4,39 @@ using System.IO;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Threading;
 
 namespace DailyGoalsapp
 {
     public partial class DeleteGoal : Window
     {
         private List<GoalItem> goalItems;
-
+        private DispatcherTimer timer;
         public DeleteGoal()
         {
             InitializeComponent();
 
             goalItems = new List<GoalItem>();
 
+            timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+
+            // Subscribe to the Tick event to update the clock
+            timer.Tick += Timer_Tick;
+
+            // Start the timer
+            timer.Start(); 
+
             LoadGoals();
         }
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            // Get the current date and time
+            DateTime currentTime = DateTime.Now;
 
+            // Update the text of the clock label
+            CurrentTime.Text = currentTime.ToString("hh:mm tt");
+        }
         private void LoadGoals()
         {
             string projectFolder = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\"));
@@ -90,5 +107,6 @@ namespace DailyGoalsapp
     {
         public string GoalText { get; set; }
         public bool IsChecked { get; set; }
+        public TimeSpan TimeLimit { get; internal set; }
     }
 }

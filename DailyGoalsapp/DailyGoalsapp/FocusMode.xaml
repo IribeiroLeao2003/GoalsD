@@ -1,0 +1,17 @@
+﻿<Window x:Class="DailyGoalsapp.FocusMode"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DailyGoalsapp"
+        mc:Ignorable="d"
+        Title="FocusMode" Height="450" Width="800">
+    <Grid Background="AntiqueWhite">
+        <TextBlock x:Name="CurrentTime" HorizontalAlignment="Left" Margin="341,91,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="77" Width="186" FontSize="24"/>
+        <TextBlock x:Name="TimeLeft" HorizontalAlignment="Left" Margin="361,130,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="Goal_to_complete" HorizontalAlignment="Center" Margin="0,191,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="26" Width="378"/>
+        <Button x:Name="ReturnToGoalsPage" Background="Green" Content="Return" HorizontalAlignment="Center" Margin="0,331,0,0" VerticalAlignment="Top" Height="19" Width="78" Click="ReturnToGoalsPage_Click"/>
+        <TextBlock x:Name="TimeFinished" HorizontalAlignment="Left" Margin="627,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="55" Width="102"><Run Language="en-ca" Text="Time is over !"/></TextBlock>
+
+    </Grid>
+</Window>

@@ -12,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 using Path = System.IO.Path;
 
 namespace DailyGoalsapp
@@ -21,9 +22,27 @@ namespace DailyGoalsapp
     /// </summary>
     public partial class AddGoal : Window
     {
+        private DispatcherTimer timer;
         public AddGoal()
         {
             InitializeComponent();
+
+            timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+
+            // Subscribe to the Tick event to update the clock
+            timer.Tick += Timer_Tick;
+
+            // Start the timer
+            timer.Start();
+        }
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            // Get the current date and time
+            DateTime currentTime = DateTime.Now;
+
+            // Update the text of the clock label
+            CurrentTime.Text = currentTime.ToString("hh:mm tt");
         }
 
         private void AddTheGoal_Click(object sender, RoutedEventArgs e)

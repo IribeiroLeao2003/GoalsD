@@ -7,11 +7,25 @@
         mc:Ignorable="d"
         Title="AddGoal" Height="450" Width="800">
     <Grid Background="AntiqueWhite">
-        <TextBlock HorizontalAlignment="Left" Margin="311,114,0,0" TextWrapping="Wrap" Text="Goal:" VerticalAlignment="Top" Height="43" Width="54" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Margin="249,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18"><Run Text="Time Doing it"/><Run Language="en-ca" Text=":"/><Run Text=" "/></TextBlock>
-        <TextBox x:Name="GoalName" HorizontalAlignment="Left" Margin="370,118,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="HowLong" HorizontalAlignment="Left" Margin="370,183,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="AddTheGoal" Content="Add New Goal" Background="Green" Margin="370,288,328,119" Click="AddTheGoal_Click"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
 
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="Goal:" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="18"/>
+        <TextBox x:Name="GoalName" Grid.Row="1" Grid.Column="2" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120"/>
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="Time Doing it:" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="18"/>
+        <TextBox x:Name="HowLong" Grid.Row="2" Grid.Column="2" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120"/>
+        <Button x:Name="AddTheGoal" Grid.Row="3" Grid.Column="2" Content="Add New Goal" Background="Green" HorizontalAlignment="Left" VerticalAlignment="Center" Click="AddTheGoal_Click" Margin="20,0,0,0"/>
+        <TextBlock x:Name="CurrentTime" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Top" Text="" Height="25" Width="66" FontSize="18"/>
     </Grid>
 </Window>

@@ -7,10 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="AntiqueWhite">
-        <Label Content="GoalsD" HorizontalAlignment="Center" Margin="0,79,0,0" VerticalAlignment="Top" Height="119" Width="276" FontSize="72"/>
-        <Button Content="" Background="Green" HorizontalAlignment="Left" Margin="335,322,0,0" VerticalAlignment="Top" Height="21" Width="96" Click="Button_Click"/>
-        <TextBlock HorizontalAlignment="Left" Margin="342,301,0,0" TextWrapping="Wrap" Text="Lets get started" VerticalAlignment="Top"/>
-        <TextBlock x:Name="CurrentTime" HorizontalAlignment="Left" Margin="350,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="" Height="25" Width="66" FontSize="18"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
 
+        <Label Content="GoalsD" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="72"/>
+        <Button Content="" Background="Green" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Height="21" Width="96" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" Text="Lets get started" VerticalAlignment="Top" Margin="0,0,0,25"/>
+        <TextBlock x:Name="CurrentTime" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="2" TextWrapping="Wrap" VerticalAlignment="Bottom" Text="" Height="25" Width="66" FontSize="18"/>
     </Grid>
 </Window>
