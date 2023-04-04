@@ -45,13 +45,18 @@ namespace DailyGoalsapp
             DateTime currentTime = DateTime.Now;
 
             // Update the text of the clock label
-            CurrentTime.Text = currentTime.ToString("hh:mm:ss tt");
+            CurrentTime.Text = currentTime.ToString("hh:mm tt");
+        }
+        public void StopClock()
+        {
+            timer.Stop();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService navService = NavigationService.GetNavigationService(this);
-            navService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
+            StopClock();
+            MainPage mainWindow = new MainPage();
+            mainWindow.Show();
             this.Close();
         }
     }

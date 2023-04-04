@@ -7,11 +7,25 @@
         mc:Ignorable="d"
         Title="MainPage" Height="450" Width="800">
     <Grid Background="AntiqueWhite" HorizontalAlignment="Center" Width="800">
-        <TextBlock HorizontalAlignment="Left" Margin="680,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="en-ca" Text="Current Goals"/></TextBlock>
+
+        <ListBox x:Name="AllTheGoals" HorizontalAlignment="Center" Margin="0,70,0,0" VerticalAlignment="Top" Height="247" Width="516" Background="AntiqueWhite">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="{Binding GoalText}" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Column="1" IsChecked="{Binding IsChecked}" VerticalAlignment="Center"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBlock x:Name="GoalsNow" HorizontalAlignment="Center" Margin="0,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="en-ca" Text="Current Goals"/></TextBlock>
         <TextBlock x:Name="MessageNoGoal" HorizontalAlignment="Center" Margin="0,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="83" Width="394" FontSize="20"><Run Language="en-ca" Text="               You have no goals now :( &#x0a;                     Lets change that !"/></TextBlock>
-        <Button x:Name="AddAGoal" Content="Add Goal" Background="Green" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="AddnewGoal" Content="Add New Goal" Background="Green"  HorizontalAlignment="Left" Margin="68,373,0,0" VerticalAlignment="Top"/>
-        <Button Content="Delete Goal" Background="Red" HorizontalAlignment="Left" Margin="68,393,0,0" VerticalAlignment="Top" Width="81"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,70,0,0" TextWrapping="Wrap" Text="dada" VerticalAlignment="Top" Height="247" Width="516"/>
+        <Button x:Name="AddAGoal" Content="Add Goal" Background="Green" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Click="AddAGoal_Click"/>
+        <Button x:Name="AddnewGoal" Content="Add New Goal" Background="Green"  HorizontalAlignment="Left" Margin="68,373,0,0" VerticalAlignment="Top" Click="AddnewGoal_Click"/>
+        <Button x:Name="DeleteGoal" Content="Delete Goal" Background="Red" HorizontalAlignment="Left" Margin="68,393,0,0" VerticalAlignment="Top" Width="81" Click="DeleteGoal_Click"/>
     </Grid>
 </Window>

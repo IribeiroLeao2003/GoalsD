@@ -9,9 +9,9 @@
     <Grid Background="AntiqueWhite">
         <TextBlock HorizontalAlignment="Left" Margin="311,114,0,0" TextWrapping="Wrap" Text="Goal:" VerticalAlignment="Top" Height="43" Width="54" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="249,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18"><Run Text="Time Doing it"/><Run Language="en-ca" Text=":"/><Run Text=" "/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Margin="370,118,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-        <TextBox HorizontalAlignment="Left" Margin="370,183,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Add New Goal" Background="Green" Margin="370,288,328,119"/>
+        <TextBox x:Name="GoalName" HorizontalAlignment="Left" Margin="370,118,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="HowLong" HorizontalAlignment="Left" Margin="370,183,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="AddTheGoal" Content="Add New Goal" Background="Green" Margin="370,288,328,119" Click="AddTheGoal_Click"/>
 
     </Grid>
 </Window>

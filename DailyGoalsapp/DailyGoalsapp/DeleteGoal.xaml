@@ -1,0 +1,26 @@
+﻿<Window x:Class="DailyGoalsapp.DeleteGoal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DailyGoalsapp"
+        mc:Ignorable="d"
+        Title="DeleteGoal" Height="450" Width="800">
+    <Grid Background="AntiqueWhite">
+        <ListBox x:Name="GoalListBox" HorizontalAlignment="Center" Margin="0,70,0,0" VerticalAlignment="Top" Height="247" Width="516">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="{Binding GoalText}" VerticalAlignment="Center"/>
+                        <Button Grid.Column="1" Content="Delete" Margin="5" Click="DeleteButton_Click" Tag="{Binding}"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button x:Name="SaveButton" Background="Green" Content="Save" HorizontalAlignment="Center" Margin="0,350,0,59" Width="91" Click="SaveButton_Click"/>
+    </Grid>
+</Window>

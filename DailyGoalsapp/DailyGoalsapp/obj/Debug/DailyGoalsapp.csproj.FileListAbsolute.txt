@@ -18,3 +18,5 @@ C:\Users\isaac\OneDrive\Documents\College\Semester 3\Web Dev\DailyGoalsapp\Daily
 C:\Users\isaac\OneDrive\Documents\College\Semester 3\Web Dev\DailyGoalsapp\DailyGoalsapp\obj\Debug\DailyGoalsapp.csproj.CoreCompileInputs.cache
 C:\Users\isaac\OneDrive\Documents\College\Semester 3\Web Dev\DailyGoalsapp\DailyGoalsapp\obj\Debug\DailyGoalsapp.exe
 C:\Users\isaac\OneDrive\Documents\College\Semester 3\Web Dev\DailyGoalsapp\DailyGoalsapp\obj\Debug\DailyGoalsapp.pdb
+C:\Users\isaac\OneDrive\Documents\College\Semester 3\Web Dev\DailyGoalsapp\DailyGoalsapp\obj\Debug\DeleteGoal.g.cs
+C:\Users\isaac\OneDrive\Documents\College\Semester 3\Web Dev\DailyGoalsapp\DailyGoalsapp\obj\Debug\DeleteGoal.baml
