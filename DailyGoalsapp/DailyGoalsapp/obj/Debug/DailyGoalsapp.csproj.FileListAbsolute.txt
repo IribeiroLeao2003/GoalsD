@@ -21,3 +21,26 @@ C:\Users\isaac\OneDrive\Documents\College\Semester 3\Web Dev\DailyGoalsapp\Daily
 C:\Users\isaac\OneDrive\Documents\College\Semester 3\Web Dev\DailyGoalsapp\DailyGoalsapp\obj\Debug\DailyGoalsapp.exe
 C:\Users\isaac\OneDrive\Documents\College\Semester 3\Web Dev\DailyGoalsapp\DailyGoalsapp\obj\Debug\DailyGoalsapp.pdb
 C:\Users\isaac\OneDrive\Documents\College\Semester 3\Web Dev\DailyGoalsapp\DailyGoalsapp\obj\Debug\FocusMode.g.cs
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\bin\Debug\DailyGoalsapp.exe.config
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\bin\Debug\DailyGoalsapp.exe
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\bin\Debug\DailyGoalsapp.pdb
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\DailyGoalsapp.csproj.AssemblyReference.cache
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\AddGoal.g.cs
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\DeleteGoal.g.cs
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\FocusMode.g.cs
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\MainPage.g.cs
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\MainWindow.g.cs
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\App.g.cs
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\DailyGoalsapp_MarkupCompile.cache
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\DailyGoalsapp_MarkupCompile.lref
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\AddGoal.baml
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\DeleteGoal.baml
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\FocusMode.baml
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\MainPage.baml
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\MainWindow.baml
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\DailyGoalsapp.g.resources
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\DailyGoalsapp.Properties.Resources.resources
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\DailyGoalsapp.csproj.GenerateResource.cache
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\DailyGoalsapp.csproj.CoreCompileInputs.cache
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\DailyGoalsapp.exe
+C:\Users\isaac\Documents\My Projects\GoalsD\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\DailyGoalsapp\obj\Debug\DailyGoalsapp.pdb

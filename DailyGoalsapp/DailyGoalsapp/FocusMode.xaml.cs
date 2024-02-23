@@ -56,5 +56,16 @@ namespace DailyGoalsapp
                 TimeLeft.Text = timeRemaining.ToString(@"hh\:mm\:ss");
             }
         }
+
+
+
+        
+
+        private void ReturnToGoalsPage_Click_1(object sender, RoutedEventArgs e)
+        {
+            MainPage mainPage = new MainPage();
+            mainPage.Show();
+            this.Close();
+        }
     }
 }
